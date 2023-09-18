@@ -1,10 +1,11 @@
 import 'package:achieve/Constant/Constant.dart';
 import 'package:achieve/View/Quiz/Quans/Screen/QuizScreen.dart';
-import 'package:achieve/View/Quiz/Reason/Reason.dart';
-import 'package:achieve/View/Quiz/Verbal/verbal.dart';
+import 'package:achieve/View/Quiz/Verbal/Screen/QuizScreen.dart';
 import 'package:achieve/model/Customappbar.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../Quiz/Reason/Screen/QuizScreen.dart';
 
 class PlaceTest extends StatefulWidget {
   const PlaceTest({super.key});
@@ -77,7 +78,7 @@ class _PlaceTestState extends State<PlaceTest> {
               padding: const EdgeInsets.only(top: 20, left: 22, right: 22),
               child: GestureDetector(
                 onTap: () {
-                  nextScreen(context, const VerbalTest());
+                  nextScreen(context, const QuizScreenOne());
                 },
                 child: Container(
                   height: 80,
@@ -121,7 +122,7 @@ class _PlaceTestState extends State<PlaceTest> {
               padding: const EdgeInsets.only(top: 20, left: 22, right: 22),
               child: GestureDetector(
                 onTap: () {
-                  nextScreen(context, const ReasonTest());
+                  nextScreen(context, const QuizScreenTwo());
                 },
                 child: Container(
                   height: 80,

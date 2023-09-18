@@ -5,14 +5,14 @@ import '../model/QuesModel.dart';
 import '../model/answercard.dart';
 import 'ResultScreen.dart';
 
-class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key});
+class QuizScreenTwo extends StatefulWidget {
+  const QuizScreenTwo({super.key});
 
   @override
-  State<QuizScreen> createState() => _QuizScreenState();
+  State<QuizScreenTwo> createState() => _QuizScreenTwoState();
 }
 
-class _QuizScreenState extends State<QuizScreen> {
+class _QuizScreenTwoState extends State<QuizScreenTwo> {
   int? selectedAnswerIndex;
   int questionIndex = 0;
   int score = 0;
