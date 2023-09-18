@@ -1,5 +1,8 @@
 
 import 'package:achieve/Constant/Constant.dart';
+import 'package:achieve/View/Placementquans/Quantative.dart';
+import 'package:achieve/View/Placementquans/Reasoning.dart';
+import 'package:achieve/View/Placementquans/Verbal.dart';
 import 'package:achieve/View/SoftSkils/Resume.dart';
 import 'package:achieve/View/SoftSkils/Selfintro.dart';
 import 'package:achieve/View/SoftSkils/communication.dart';
@@ -46,7 +49,10 @@ class _PlaceVidState extends State<PlaceVid> {
               Padding(
               padding: const EdgeInsets.only(top: 25, left: 22, right: 22),
               child: GestureDetector(
-                onTap: (){},
+                onTap: ()
+                {
+                  nextScreen(context,const Quantative());
+                },
                 child: Container(
                   height: 80,
                   width: 350,
@@ -77,7 +83,9 @@ class _PlaceVidState extends State<PlaceVid> {
              Padding(
               padding: const EdgeInsets.only(top: 40, left: 22, right: 22),
               child: GestureDetector(
-                onTap: (){},
+                onTap: (){
+                  nextScreen(context, const Verbal());
+                },
                 child: Container(
                   height: 80,
                   width: 350,
@@ -108,7 +116,9 @@ class _PlaceVidState extends State<PlaceVid> {
              Padding(
               padding: const EdgeInsets.only(top: 40, left: 22, right: 22),
               child: GestureDetector(
-                onTap:(){},
+                onTap:(){
+                  nextScreen(context, const Reasoning());
+                },
                 child: Container(
                   height: 80,
                   width: 350,
