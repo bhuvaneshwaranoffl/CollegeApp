@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class FED extends StatefulWidget {
@@ -14,7 +16,7 @@ class _FEDState extends State<FED> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "FED", context: context),
     );
   }
 }

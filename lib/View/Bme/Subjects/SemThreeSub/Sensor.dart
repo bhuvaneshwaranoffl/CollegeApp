@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class Sensors extends StatefulWidget {
   const Sensors({Key? key}) : super(key: key);
@@ -14,6 +16,7 @@ class _SensorsState extends State<Sensors> {
   Widget build(BuildContext context) {
     return Scaffold(
         
+        appBar: customAppBar(title: "Sensors", context: context),
     );
   }
 }

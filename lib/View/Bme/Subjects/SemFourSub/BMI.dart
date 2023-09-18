@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class BMI extends StatefulWidget {
@@ -13,7 +15,7 @@ class _BMIState extends State<BMI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "BMI", context: context),
     );
   }
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class OS extends StatefulWidget {
   const OS({Key? key}) : super(key: key);
@@ -12,7 +14,7 @@ class _OSState extends State<OS> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "OS", context: context),
     );
   }
 }

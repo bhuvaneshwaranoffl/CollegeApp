@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class IOS extends StatefulWidget {
@@ -14,7 +16,7 @@ class _IOSState extends State<IOS> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "IOS", context: context),
     );
   }
 }

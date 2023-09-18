@@ -1,3 +1,4 @@
+import 'package:achieve/model/Customappbar.dart';
 import 'package:flutter/material.dart';
 
 
@@ -12,7 +13,7 @@ class _AlgebraState extends State<Algebra> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Algebra", context: context),
     );
   }
 }

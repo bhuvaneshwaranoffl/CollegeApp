@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../Subject/SemOneSub/Chemistry.dart';
 import '../Subject/SemOneSub/EnglishOne.dart';
 import '../Subject/SemOneSub/Heritage.dart';
@@ -21,18 +22,17 @@ class _SemOneState extends State<SemOne> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: customAppBar(title: "Semester One", context: context),
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 50, left: 10),
-              child: Align(
-                alignment: Alignment.topLeft,
-                child: Text(
-                  "Choose your \nSubjects",
-                  style: GoogleFonts.dmSerifDisplay(
-                      textStyle: const TextStyle(fontSize: 30)),
-                ),
+            Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "Choose your \nSubjects",
+                style: GoogleFonts.dmSerifDisplay(
+                    textStyle: const TextStyle(fontSize: 30)),
               ),
             ),
             const SizedBox(

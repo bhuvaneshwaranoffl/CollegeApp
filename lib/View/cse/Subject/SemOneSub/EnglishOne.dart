@@ -1,4 +1,5 @@
 
+import 'package:achieve/model/Customappbar.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -17,7 +18,7 @@ class _EnglishState extends State<English> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Professional English", context: context),
     );
   }
 }

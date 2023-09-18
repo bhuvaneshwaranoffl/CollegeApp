@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../../cse/Subject/SemThreeSub/OOP.dart';
 import '../../cse/semester/Semone.dart';
 import '../Subjects/SemThreeSub/Anatomy.dart';
@@ -22,10 +23,7 @@ class _SemThreeBmeState extends State<SemThreeBme> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0,
-      ),
+      appBar: customAppBar(title: "Semester Three", context: context),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.only(bottom: 20.0),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class ML extends StatefulWidget {
   const ML({Key? key}) : super(key: key);
@@ -12,7 +14,7 @@ class _MLState extends State<ML> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "ML", context: context),
     );
   }
 }

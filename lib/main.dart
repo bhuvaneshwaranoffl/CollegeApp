@@ -1,4 +1,4 @@
-import 'package:achieve/View/BottomNavigation/BottomNavBar.dart';
+import 'package:achieve/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         colorScheme:ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 201, 0, 255)) 
       ),
-      home: const BottomNavigation(),
+      home: const SplashScreen(),
     );
   }
 }

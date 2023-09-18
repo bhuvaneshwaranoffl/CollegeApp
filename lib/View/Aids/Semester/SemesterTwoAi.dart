@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../../cse/Subject/SemTwoSub/BEEE.dart';
 import '../../cse/Subject/SemTwoSub/CProg.dart';
 import '../../cse/Subject/SemTwoSub/EnglishTwo.dart';
@@ -22,7 +23,9 @@ class _SemTwoAiState extends State<SemTwoAi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: customAppBar(title: "Semester Two", context: context),
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           children: [
             Padding(

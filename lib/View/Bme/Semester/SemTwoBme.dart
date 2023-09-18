@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../../cse/Subject/SemTwoSub/BEEE.dart';
 import '../../cse/Subject/SemTwoSub/EnglishTwo.dart';
 import '../../cse/Subject/SemTwoSub/Graphics.dart';
@@ -22,6 +23,7 @@ class _SemTwoBmeState extends State<SemTwoBme> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: customAppBar(title: "Semestet Two", context: context),
       body: SingleChildScrollView(
         child: Column(
           children: [

@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class BEEE extends StatefulWidget {
   const BEEE({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class _BEEEState extends State<BEEE> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "BEEE", context: context),
     );
   }
 }

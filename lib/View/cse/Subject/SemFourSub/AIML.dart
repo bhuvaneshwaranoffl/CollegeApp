@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class AIML extends StatefulWidget {
   const AIML({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class _AIMLState extends State<AIML> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "AIML", context: context),
     );
   }
 }

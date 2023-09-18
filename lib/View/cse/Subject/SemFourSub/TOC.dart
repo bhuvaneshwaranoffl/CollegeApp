@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class TOC extends StatefulWidget {
@@ -14,7 +16,7 @@ class _TOCState extends State<TOC> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+        appBar: customAppBar(title: "TOC", context: context),
     );
   }
 }

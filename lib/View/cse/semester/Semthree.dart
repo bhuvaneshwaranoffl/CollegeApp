@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../Subject/SemThreeSub/DPCO.dart';
 import '../Subject/SemThreeSub/DataScience.dart';
 import '../Subject/SemThreeSub/DataStructures.dart';
@@ -19,7 +20,9 @@ class _SemThreeState extends State<SemThree> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: customAppBar(title: "Semester Three", context: context),
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           children: [
             Padding(

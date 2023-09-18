@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class Cprog extends StatefulWidget {
   const Cprog({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class _CprogState extends State<Cprog> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "C -Programming", context: context),
     );
   }
 }

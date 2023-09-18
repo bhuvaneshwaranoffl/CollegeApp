@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class Prob extends StatefulWidget {
@@ -13,7 +15,7 @@ class _ProbState extends State<Prob> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Probability", context: context),
     );
   }
 }

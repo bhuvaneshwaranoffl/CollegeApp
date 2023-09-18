@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class ComputerSci extends StatefulWidget {
@@ -13,7 +15,7 @@ class _ComputerSciState extends State<ComputerSci> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Computer Science", context: context),
     );
   }
 }

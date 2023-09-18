@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../../../Constant/Constant.dart';
+import '../../../model/Customappbar.dart';
 import '../../cse/Subject/SemFourSub/ESS.dart';
 import '../../cse/semester/Semone.dart';
 import '../Subjects/SemFourSub/Analytics.dart';
@@ -23,10 +24,7 @@ class _SemFourAiState extends State<SemFourAi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0,
-      ),
+     appBar: customAppBar(title: "Semester Four", context: context),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.only(bottom:20.0),

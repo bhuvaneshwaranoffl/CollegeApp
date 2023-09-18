@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 class Anatomy extends StatefulWidget {
   const Anatomy({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class _AnatomyState extends State<Anatomy> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Anatomy", context: context),
     );
   }
 }

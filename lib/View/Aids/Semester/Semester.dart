@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../../Constant/Constant.dart';
 import '../../../Constant/categorycard.dart';
+import '../../../model/Customappbar.dart';
 import '../../cse/semester/Semone.dart';
 import 'SemesterFiveAi.dart';
 import 'SemesterFourAi.dart';
@@ -21,6 +22,7 @@ class _SemesterAidsState extends State<SemesterAids> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      appBar: customAppBar(title: "Semester", context: context),
      // backgroundColor: mcgpalette0.shade800,
       body: Padding(
         padding: const EdgeInsets.all(10.0),

@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class ECA extends StatefulWidget {
@@ -14,7 +16,7 @@ class _ECAState extends State<ECA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "ECA", context: context),
     );
   }
 }

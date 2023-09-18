@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../../../../model/Customappbar.dart';
+
 
 
 class Matrix extends StatefulWidget {
@@ -14,7 +16,7 @@ class _MatrixState extends State<Matrix> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       
+       appBar: customAppBar(title: "Matrix", context: context),
     );
   }
 }
