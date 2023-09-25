@@ -19,6 +19,8 @@ class _EnglishState extends State<English> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "Professional English", context: context),
+       body: Center(child:Text("The page is under maintenece\non next update you can recieve notes",
+       style: TextStyle(fontSize: 18),)),
     );
   }
 }

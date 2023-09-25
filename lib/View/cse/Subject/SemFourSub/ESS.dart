@@ -16,6 +16,11 @@ class _ESSState extends State<ESS> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "ESS", context: context),
+        body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

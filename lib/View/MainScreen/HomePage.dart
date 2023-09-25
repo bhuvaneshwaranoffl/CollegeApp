@@ -58,27 +58,36 @@ class _HomePageState extends State<HomePage> {
             ),
             child:Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                  Text(
-                          "Hello !",
-                          style: GoogleFonts.dmSerifDisplay(
-                              textStyle: const TextStyle(
-                                  fontSize: 29, color: Colors.white)),
-                        ),
-                        Text(
-                          "Bhuvaneshwaran",
-                          style: GoogleFonts.aDLaMDisplay(
-                              textStyle: const TextStyle(
-                                  fontSize: 29, color: Colors.white)),
-                        ),
-                  ],
-                ),
+               children: [
+              //   Row(
+              //     children: [
+              //     Text(
+              //             "Hello !",
+              //             style: GoogleFonts.dmSerifDisplay(
+              //                 textStyle: const TextStyle(
+              //                     fontSize: 29, color: Colors.white)),
+              //           ),
+              //           Text(
+              //             "Bhuvaneshwaran",
+              //             style: GoogleFonts.aDLaMDisplay(
+              //                 textStyle: const TextStyle(
+              //                     fontSize: 29, color: Colors.white)),
+              //           ),
+              //     ],
+              //   ),
                Padding(
                       padding: const EdgeInsets.only(top: 30, left: 60),
                       child: Text(
                         "Welcome To Our App",
+                        style: GoogleFonts.dmSerifDisplay(
+                            textStyle: const TextStyle(
+                                fontSize: 29, color: Colors.white)),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 30,left: 30),
+                      child: Text(
+                        "What you want to learn today ?",
                         style: GoogleFonts.dmSerifDisplay(
                             textStyle: const TextStyle(
                                 fontSize: 29, color: Colors.white)),

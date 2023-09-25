@@ -15,6 +15,11 @@ class _AIState extends State<AI> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "AI", context: context),
+        body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

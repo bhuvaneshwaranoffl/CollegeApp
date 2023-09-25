@@ -17,6 +17,11 @@ class _ChemistryState extends State<Chemistry> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "Chemistry", context: context),
+        body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

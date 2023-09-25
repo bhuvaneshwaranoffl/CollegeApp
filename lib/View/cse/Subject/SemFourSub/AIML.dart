@@ -16,6 +16,11 @@ class _AIMLState extends State<AIML> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "AIML", context: context),
+        body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

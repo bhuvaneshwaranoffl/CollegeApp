@@ -17,6 +17,11 @@ class _MedicalPhysicsState extends State<MedicalPhysics> {
   Widget build(BuildContext context) {
     return Scaffold(
      appBar: customAppBar(title: "Medical Physics", context: context),
+      body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
         
     );
   }

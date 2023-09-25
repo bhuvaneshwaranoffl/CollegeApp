@@ -16,6 +16,11 @@ class _AnatomyState extends State<Anatomy> {
   Widget build(BuildContext context) {
     return Scaffold(
        appBar: customAppBar(title: "Anatomy", context: context),
+        body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

@@ -15,6 +15,11 @@ class _ADCState extends State<ADC> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: customAppBar(title: "ADC", context: context),
+         body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }

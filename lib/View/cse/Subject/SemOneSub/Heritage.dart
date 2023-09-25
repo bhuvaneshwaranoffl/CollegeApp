@@ -13,7 +13,11 @@ class _HeritageState extends State<Heritage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
+         body: Center(
+          child: Text(
+        "The page is under maintenece\non next update you can recieve notes",
+        style: TextStyle(fontSize: 18),
+      )),
     );
   }
 }
