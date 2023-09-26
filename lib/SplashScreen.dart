@@ -44,19 +44,24 @@ class _SplashScreenState extends State<SplashScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Center(
-                  child: Image.asset(
-                    "assets/logos.png",
-                    height: 400,
-                    width: 400,
+                  child: Text(
+                    "A C H I E V E",
+                    style: TextStyle(
+                        fontSize: 22,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
-                  Text(
-                  "A C H I E V E",
-                  style: TextStyle(fontSize: 22, color: Colors.white,
-                  fontWeight: FontWeight.bold),
+                Center(
+                  child: Image.asset(
+                    "assets/logos.png",
+                    height: 200,
+                    width: 200,
+                  ),
                 ),
+                  
                 SizedBox(
-                  height: 20,
+                  height: 40,
                 ),
                 const Row(
                   children: [
@@ -99,7 +104,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 20,
                 ),
                   Text(
-                    "S - T E C H S O L U T I O N S",
+                    "S - T E C H  S O L U T I O N S",
                     style: TextStyle(fontSize: 18, color: Colors.white),
                   ),
               ],

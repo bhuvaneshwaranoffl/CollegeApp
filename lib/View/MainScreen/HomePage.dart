@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> {
                       image: "assets/3.jpg", title: "AIDS", press: () {
                       nextScreen(context, const SemesterAids());
                       }),
-
+       
                   ],),)
         ],
        ),
