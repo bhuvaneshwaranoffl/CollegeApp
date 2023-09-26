@@ -13,13 +13,13 @@ class QuestionQuans{
 const List <QuestionQuans> questions =[
 
   QuestionQuans(
-    question: "1.If the sum of two numbers is 55 and the H.C.F. and L.C.M. of these numbers are 5 and 120 respectively, then the sum of the reciprocals of the numbers is equal to:",
+    question: "1.Today it is Thursday.After 132 days,it will be",
     option: [
       
-    'a) 55/601',
-    'b) 11/120 ',
-    'c) 22/240',
-    'd) 33/230'
+    'a) monday',
+    'b) wednesday ',
+    'c) thursday',
+    'd) friday'
 
     ],
     CorrectAnswerIndex:1 ),

@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(
-        const Duration(seconds: 4),
+        const Duration(seconds: 3),
         () => Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) => const BottomNavigation())));
   }
@@ -40,36 +40,69 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
           ),
           Positioned(
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    "assets/splash.png",
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Center(
+                  child: Image.asset(
+                    "assets/logos.png",
                     height: 400,
                     width: 400,
                   ),
-                  SizedBox(
-                    height: 8,
-                  ),
-                  const Row(
+                ),
+                  Text(
+                  "A C H I E V E",
+                  style: TextStyle(fontSize: 22, color: Colors.white,
+                  fontWeight: FontWeight.bold),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                const Row(
+                  children: [
+                    Expanded(
+                        child: Divider(
+                      indent: 28,
+                      endIndent: 10,
+                      color: Colors.white,
+                    )),
+                  Row(
                     children: [
-                      Expanded(
-                          child: Divider(
-                        indent: 28,
-                        endIndent: 10,
-                        color: Colors.white,
-                      )),
-                      Expanded(
-                          child: Divider(
-                        indent: 10,
-                        endIndent: 28,
-                        color: Colors.white,
-                      ))
+                      Text("F R O M -- ",style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.white
+                      ),),
+                      Text(
+                          "B E T T E R V I C E ",
+                          style: TextStyle(fontSize: 18, color: Colors.white),
+                        ),
+                        
                     ],
                   ),
-                ],
-              ),
+                
+                    Expanded(
+                        child: Divider(
+                      indent: 10,
+                      endIndent: 28,
+                      color: Colors.white,
+                    ))
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  "&",
+                  style: TextStyle(fontSize: 18, color: Colors.white),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                  Text(
+                    "S - T E C H S O L U T I O N S",
+                    style: TextStyle(fontSize: 18, color: Colors.white),
+                  ),
+              ],
             ),
           )
         ],

@@ -15,33 +15,39 @@ class CategoryCard extends StatelessWidget {
       child: Material(
         child: Container(
           decoration: BoxDecoration(
-              color: Colors.deepPurple.shade400,
-                  boxShadow: const [
-                  BoxShadow(
-                    color: Color.fromARGB(255, 98, 50, 180),
-                    offset: Offset(
-                      5.0,
-                      5.0,
-                    ),
-                    blurRadius: 10.0,
-                    spreadRadius: 2.0,
-                  ), //BoxShadow
-                  BoxShadow(
-                      color: Colors.white,
-                      offset: Offset(0.0, 0.0),
-                      blurRadius: 10.0,
-                      spreadRadius: 2.0),
-                ]
+            image: DecorationImage(image: AssetImage(image),
+            fit: BoxFit.cover),
+              //color: Colors.deepPurple.shade400,
+              boxShadow: [BoxShadow(
+                color: Colors.deepOrange,
+                offset: Offset(
+                            7.0,
+                            7.0,
+                          ),
+                          blurRadius: 17.0,
+                          spreadRadius: 4.0,
+              ),
+              BoxShadow(
+                  color: Colors.deepPurple,
+                  offset: Offset(
+                    7.0,
+                    7.0,
+                  ),
+                  blurRadius: 17.0,
+                  spreadRadius: 4.0,
+                )
+              ]
                 ),
           child: GestureDetector(
             onTap: press,
             child: Column(
               children: [
                 //const Spacer(),
-                Image.asset(
-                  image,
-                  fit: BoxFit.cover,
-                ),
+              //  Image.asset(
+              //     image,
+              //     height: 100,
+              //     width: 400,
+              //   ), 
               ],
             ),
           ),

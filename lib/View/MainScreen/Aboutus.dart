@@ -127,6 +127,31 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
+                 const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Expanded(
+                        child: Divider(
+                      indent: 22,
+                      endIndent: 10,
+                      color: Colors.grey,
+                    )),
+                    Text(
+                      "FROM MY COLLEGE",
+                      style: TextStyle(
+                          color: Colors.grey, fontSize: 16, letterSpacing: 4.0),
+                    ),
+                    Expanded(
+                        child: Divider(
+                      indent: 10,
+                      endIndent: 22,
+                      color: Colors.grey,
+                    ))
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
             Container(
                   height: 400,
                   width: 400,
@@ -157,6 +182,31 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
+                 const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Expanded(
+                        child: Divider(
+                      indent: 22,
+                      endIndent: 10,
+                      color: Colors.grey,
+                    )),
+                    Text(
+                      "SCHOOL FRIENDS",
+                      style: TextStyle(
+                          color: Colors.grey, fontSize: 16, letterSpacing: 4.0),
+                    ),
+                    Expanded(
+                        child: Divider(
+                      indent: 10,
+                      endIndent: 22,
+                      color: Colors.grey,
+                    ))
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
                  Container(
                   height: 400,
                   width: 400,
@@ -183,6 +233,31 @@ class _AboutUsState extends State<AboutUs> {
                     "assets/fri.jpg",
                     fit: BoxFit.cover,
                   ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                 const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Expanded(
+                        child: Divider(
+                      indent: 22,
+                      endIndent: 10,
+                      color: Colors.grey,
+                    )),
+                    Text(
+                      "OUR INSTITUTION",
+                      style: TextStyle(
+                          color: Colors.grey, fontSize: 16, letterSpacing: 4.0),
+                    ),
+                    Expanded(
+                        child: Divider(
+                      indent: 10,
+                      endIndent: 22,
+                      color: Colors.grey,
+                    ))
+                  ],
                 ),
                 SizedBox(
                   height: 20,
