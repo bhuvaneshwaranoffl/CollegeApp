@@ -1,9 +1,9 @@
 
 
 import 'dart:async';
+import 'package:achieve/view/bottomnav/bottomnav.dart';
 import 'package:flutter/material.dart';
 
-import 'View/BottomNavigation/BottomNavBar.dart';
 
 
 late String finaltoken;
