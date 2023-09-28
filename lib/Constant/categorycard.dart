@@ -13,43 +13,46 @@ class CategoryCard extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Material(
-        child: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage(image),
-            fit: BoxFit.cover),
-              //color: Colors.deepPurple.shade400,
-              boxShadow: [BoxShadow(
-                color: Colors.deepOrange,
-                offset: Offset(
-                            7.0,
-                            7.0,
-                          ),
-                          blurRadius: 17.0,
-                          spreadRadius: 4.0,
-              ),
-              BoxShadow(
-                  color: Colors.deepPurple,
+        child: GestureDetector(
+          onTap: press,
+          child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(image: AssetImage(image),
+              fit: BoxFit.cover),
+                //color: Colors.deepPurple.shade400,
+                boxShadow: [BoxShadow(
+                  color: Colors.deepOrange,
                   offset: Offset(
-                    7.0,
-                    7.0,
-                  ),
-                  blurRadius: 17.0,
-                  spreadRadius: 4.0,
-                )
-              ]
+                              7.0,
+                              7.0,
+                            ),
+                            blurRadius: 17.0,
+                            spreadRadius: 4.0,
                 ),
-          child: GestureDetector(
-            onTap: press,
-            child: Column(
-              children: [
-                //const Spacer(),
-              //  Image.asset(
-              //     image,
-              //     height: 100,
-              //     width: 400,
-              //   ), 
-              ],
-            ),
+                BoxShadow(
+                    color: Colors.deepPurple,
+                    offset: Offset(
+                      7.0,
+                      7.0,
+                    ),
+                    blurRadius: 17.0,
+                    spreadRadius: 4.0,
+                  )
+                ]
+                  ),
+            // child: GestureDetector(
+            //   onTap: press,
+            //   child: Column(
+            //     children: [
+            //       //const Spacer(),
+            //      Image.asset(
+            //         image,
+            //         height: 100,
+            //         width: 400,
+            //       ), 
+            //     ],
+            //   ),
+            // ),
           ),
         ),
       ),

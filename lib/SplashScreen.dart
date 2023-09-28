@@ -43,59 +43,65 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Center(
-                  child: Text(
-                    "A C H I E V E",
-                    style: TextStyle(
-                        fontSize: 22,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold),
-                  ),
+                Text(
+                  "A C H I E V E",
+                  style: TextStyle(
+                      fontSize: 22,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(
+                  height: 180,
                 ),
                 Center(
                   child: Image.asset(
                     "assets/logos.png",
-                    height: 200,
-                    width: 200,
+                    height: 150,
+                    width: 150,
                   ),
                 ),
                   
                 SizedBox(
-                  height: 40,
+                  height: 200,
                 ),
                 const Row(
                   children: [
                     Expanded(
                         child: Divider(
+                          thickness: 3,
                       indent: 28,
                       endIndent: 10,
                       color: Colors.white,
                     )),
                   Row(
                     children: [
-                      Text("F R O M -- ",style: TextStyle(
+                      Text("F R O M ",style: TextStyle(
                         fontSize: 18,
                         color: Colors.white
                       ),),
-                      Text(
-                          "B E T T E R V I C E ",
-                          style: TextStyle(fontSize: 18, color: Colors.white),
-                        ),
-                        
+                    
                     ],
                   ),
                 
                     Expanded(
                         child: Divider(
+                          thickness: 3,
                       indent: 10,
                       endIndent: 28,
                       color: Colors.white,
                     ))
-                  ],
+                  ]
                 ),
                 SizedBox(
                   height: 20,
                 ),
+                  Text(
+                  "B E T T E R V I C E ",
+                  style: TextStyle(fontSize: 18, color: Colors.white),
+                ),
+                   SizedBox(
+                  height: 20,
+                ),     
                 Text(
                   "&",
                   style: TextStyle(fontSize: 18, color: Colors.white),

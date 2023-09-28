@@ -1,11 +1,11 @@
 import 'package:achieve/View/MainScreen/Aboutus.dart';
 import 'package:achieve/View/MainScreen/HomePage.dart';
-import 'package:achieve/View/MainScreen/PlacementTest.dart';
-import 'package:achieve/View/MainScreen/PlacementVid.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../Constant/Constant.dart';
+import '../mainscreen/PlacementTest.dart';
+import '../mainscreen/PlacementVid.dart';
 
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({Key? key}) : super(key: key);

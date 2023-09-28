@@ -6,7 +6,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../../Constant/Constant.dart';
 import '../../../Constant/categorycard.dart';
-import 'Semfive.dart';
 import 'Semfour.dart';
 import 'Semone.dart';
 import 'Semthree.dart';
@@ -73,13 +72,13 @@ class _SemesterState extends State<Semester> {
                         nextScreen(context, const SemFour());
                       },
                     ),
-                    CategoryCard(
-                      image: "assets/five.jpg",
-                      title: "SEM FIVE",
-                      press: (){
-                        nextScreen(context, const SemFive());
-                      },
-                    ),
+                    // CategoryCard(
+                    //   image: "assets/five.jpg",
+                    //   title: "SEM FIVE",
+                    //   press: (){
+                    //     nextScreen(context, const SemFive());
+                    //   },
+                    // ),
                     // CategoryCard(
                     //   image: "lib/images/AIDS.png",
                     //   title: "SEM SIX",

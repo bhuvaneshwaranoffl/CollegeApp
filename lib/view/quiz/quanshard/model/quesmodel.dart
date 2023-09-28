@@ -11,76 +11,84 @@ class QuestionQuans {
 
 const List<QuestionQuans> questions = [
   QuestionQuans(
-      question: "1.Today it is Thursday.After 132 days,it will be",
-      option: ['a) monday', 'b) wednesday ', 'c) thursday', 'd) friday'],
+      question: "1.What is the average of first five multiples of 12?",
+      option: ['a) 42', 'b) 36 ', 'c) 33', 'd) 43'],
       CorrectAnswerIndex: 1),
   QuestionQuans(
       question:
-          "2.The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:",
-      option: ['a) 8977', 'b) 9600 ', 'c) 8099', 'd) 9650'],
+          "2. What is the difference in the place value of 5 in the numeral 754853?",
+      option: ['a) 38977', 'b) 49950 ', 'c)48099', 'd) 49650'],
       CorrectAnswerIndex: 1),
   QuestionQuans(
       question:
-          "3.The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is:",
-      option: ['a) 8977', 'b) 9600 ', 'c) 8099', 'd) 9650'],
+          "3.What is the compound interest on Rs. 2500 for 2 years at rate of interest 4% per annum?",
+      option: ['a) Rs. 204', 'b) Rs. 203 ', 'c) Rs. 202', 'd) Rs. 201'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
       question:
-          "4.In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?",
-      option: ['a) 34', 'b) 36 ', 'c) 35', 'd) 37'],
+          "4.Sohan started a business with a capital of Rs. 80000. After 6 months Mohan joined as a partner by investing Rs. 65000. After one year they earned total profit Rs. 20000. What is share of Sohan in the profit?",
+      option: ['a) Rs. 5333.7', 'b) Rs. 5777.7 ',
+       'c) Rs. 5444.7', 'd)Rs. 5555.7'],
       CorrectAnswerIndex: 1),
   QuestionQuans(
       question:
-          "5.The product of two numbers is 9375 and the quotient, when the larger one is divided by the smaller, is 15. The sum of the numbers is:",
-      option: ['a) 700', 'b) 600 ', 'c) 400', 'd) 500'],
+          "5.A mother is twice as old as her son. If 20 years ago, the age of the mother was 10 times the age of the son, what is the present age of the mother?",
+      option: ['a) 70 years', 'b) 60 years ', 'c) 45 years', 'd) 50 years'],
       CorrectAnswerIndex: 2),
   QuestionQuans(
       question:
-          "6.Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years?",
-      option: ['a) 28', 'b) 26 ', 'c) 27', 'd) 24'],
+          "6.If January 1, 1996, was Monday, what day of the week was January 1, 1997?",
+      option: ['a) monday', 'b) tuesday ', 'c) saturday', 'd) Wednesday'],
       CorrectAnswerIndex: 3),
   QuestionQuans(
       question:
-          "7.Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for Rs. 6. Gain percent is:",
-      option: ['a) 44%', 'b) 45.5% ', 'c) 47.8%', 'd) 46%'],
+          "7.The speed of a boat in still water is 5km/hr. If the speed of the boat against the stream is 3 km/hr, what is the speed of the stream?",
+      option: ['a) 2 km/hr', 'b) 3 km/hr',
+       'c) 2.7 km/hr', 'd) 2.5 km/hr'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
       question:
-          "8.Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?",
-      option: ['a) 5499', 'b) 7400 ', 'c) 6400', 'd) 8800'],
+          "8.A train moving at speed of 80 km/hr crosses a pole in 7 seconds. Find the length of the train?",
+      option: ['a) 173 m', 'b)174 m ',
+       'c) 175 m', 'd) 176 m'],
       CorrectAnswerIndex: 2),
   QuestionQuans(
       question:
-          "9.66 cubic centimetres of silver is drawn into a wire 1 mm in diameter. The length of the wire in metres will be:",
-      option: ['a) 84', 'b) 96 ', 'c) 80', 'd) 95'],
+          "9.How many times the hands of a clock coincide in a day?",
+      option: ['a) 22', 'b) 26 ', 'c) 20', 'd) 25'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
       question:
-          "10.How many times in a day, are the hands of a clock in straight line but opposite in direction?",
-      option: ['a) 20', 'b) 22 ', 'c) 24', 'd) 12'],
+          "10. Two ships are sailing in the sea on the two sides of a lighthouse. The angles of elevation of the top of the lighthouse observed from the ships are 30° and 45° respectively. If the lighthouse is 100m high, find the distance between the two ships.",
+      option: ['a)157 m', 'b) 157.80 m ', 
+      'c) 155 m', 'd) 157.89 m'],
       CorrectAnswerIndex: 1),
   QuestionQuans(
       question:
-          "11.The cost price of a Rs. 100 stock at 4 discount, when brokerage is 1/4% is",
-      option: ['a) Rs 96.25', 'b) Rs 96 ', 'c) Rs 80', 'd) Rs 95'],
+          "11.40 % of 280 =?",
+      option: ['a) 112', 'b) 113 ',
+       'c)114', 'd) 115'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
       question:
-          "12.From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. In how many ways can it be done?",
-      option: ['a) 756', 'b) 960 ', 'c) 809', 'd) 965'],
+          "12. A pipe can fill a tank in 6 hours and another pipe can empty the tank in 12 hours. If both the pipes are opened at the same time,the tank can be filled in",
+      option: ['a)12 hours', 'b) 13 hours ',
+       'c) 15 hours', 'd) 14 hours'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
       question:
-          "13.The true discount on a bill due 9 months hence at 16% per annum is Rs. 189. The amount of the bill is:",
-      option: ['a) 1764', 'b) 1234 ', 'c) 1099', 'd) 1650'],
+          "13.A shopkeeper sold an article for Rs. 2500. If the cost price of the article is 2000, find the profit percent.",
+      option: ['a) 25%', 'b) 24%', 'c) 26%', 'd) 27%'],
       CorrectAnswerIndex: 0),
   QuestionQuans(
-      question: "14. Finid odd one out :41, 43, 47, 53, 61, 71, 73, 81",
-      option: ['a) 41', 'b) 81 ', 'c) 47', 'd) 61'],
+      question: "14. A running man crosses a bridge of length 500 meters in 4 minutes. At what speed he is running?",
+      option: ['a) 8.5 km/s', 'b) 7.5 km/s',
+       'c) 6.5 km/s', 'd)5.5 km/s'],
       CorrectAnswerIndex: 1),
   QuestionQuans(
       question:
-          "15.Two dice are tossed. The probability that the total score is a prime number is:",
-      option: ['a) 5/12', 'b) 6/12 ', 'c) 7/12', 'd) 4/12'],
+          "15. If Suresh borrows Rs. 36000 from Mahesh at rate of interest 6% S.I, at the end of four years how much interest Suresh has to pay along with principal amount?",
+      option: ['a) Rs. 12960', 'b) Rs. 12860 ',
+       'c) Rs. 12980', 'd) Rs. 12970'],
       CorrectAnswerIndex: 0),
 ];

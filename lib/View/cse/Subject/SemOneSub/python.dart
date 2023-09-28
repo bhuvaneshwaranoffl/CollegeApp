@@ -111,7 +111,7 @@ class _PythonState extends State<Python> {
                 ),
                 Link(
                     uri: Uri.parse(
-                        "https://drive.google.com/file/d/1Kl6ta2d4x4xvKP-Jd82bZK6z2XYN6bPo/view?usp=sharing"),
+                        "https://drive.google.com/file/d/104JpbiDD8-vef5Ck6Q5Y6KDX-AyUuAj0/view?usp=sharing"),
                     builder: (context, follwlink) {
                       return ElevatedButton(
                           style: ElevatedButton.styleFrom(
@@ -123,49 +123,49 @@ class _PythonState extends State<Python> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
-                  height: 200,
-                  width: 200,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage("assets/imp.jpg"), fit: BoxFit.cover),
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.deepPurpleAccent,
-                      boxShadow: const [
-                        BoxShadow(
-                          color: Colors.deepPurple,
-                          offset: Offset(
-                            5.0,
-                            5.0,
-                          ),
-                          blurRadius: 10.0,
-                          spreadRadius: 2.0,
-                        ), //BoxShadow
-                        BoxShadow(
-                            color: Colors.white,
-                            offset: Offset(0.0, 0.0),
-                            blurRadius: 0.0,
-                            spreadRadius: 0.0),
-                      ]),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text("Important questions"),
-                SizedBox(
-                  height: 10,
-                ),
-                Link(
-                    uri: Uri.parse(
-                        "https://drive.google.com/file/d/1Kl6ta2d4x4xvKP-Jd82bZK6z2XYN6bPo/view?usp=sharing"),
-                    builder: (context, follwlink) {
-                      return ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            minimumSize: Size(150, 50),
-                          ),
-                          onPressed: follwlink,
-                          child: const Text("click me"));
-                    }),
+                // Container(
+                //   height: 200,
+                //   width: 200,
+                //   decoration: BoxDecoration(
+                //       image: DecorationImage(
+                //           image: AssetImage("assets/imp.jpg"), fit: BoxFit.cover),
+                //       borderRadius: BorderRadius.circular(20),
+                //       color: Colors.deepPurpleAccent,
+                //       boxShadow: const [
+                //         BoxShadow(
+                //           color: Colors.deepPurple,
+                //           offset: Offset(
+                //             5.0,
+                //             5.0,
+                //           ),
+                //           blurRadius: 10.0,
+                //           spreadRadius: 2.0,
+                //         ), //BoxShadow
+                //         BoxShadow(
+                //             color: Colors.white,
+                //             offset: Offset(0.0, 0.0),
+                //             blurRadius: 0.0,
+                //             spreadRadius: 0.0),
+                //       ]),
+                // ),
+                // SizedBox(
+                //   height: 10,
+                // ),
+                // Text("Important questions"),
+                // SizedBox(
+                //   height: 10,
+                // ),
+                // Link(
+                //     uri: Uri.parse(
+                //         "https://drive.google.com/file/d/1Kl6ta2d4x4xvKP-Jd82bZK6z2XYN6bPo/view?usp=sharing"),
+                //     builder: (context, follwlink) {
+                //       return ElevatedButton(
+                //           style: ElevatedButton.styleFrom(
+                //             minimumSize: Size(150, 50),
+                //           ),
+                //           onPressed: follwlink,
+                //           child: const Text("click me"));
+                //     }),
               ],
             ),
                  ),

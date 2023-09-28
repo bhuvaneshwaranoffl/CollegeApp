@@ -1,6 +1,7 @@
 import 'package:achieve/model/Customappbar.dart';
 import 'package:flutter/material.dart';
 
+
 class AboutUs extends StatefulWidget {
   const AboutUs({super.key});
 
@@ -11,15 +12,14 @@ class AboutUs extends StatefulWidget {
 class _AboutUsState extends State<AboutUs> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: customAppBar(title: "About Us", context: context),
       body: SingleChildScrollView(
-          physics: BouncingScrollPhysics(),
-          child: Padding(
-            padding: const EdgeInsets.all(22.0),
-            child: Column(
-              children: [
-                const Row(
+        physics: BouncingScrollPhysics(),
+        child: Padding(
+          padding: const EdgeInsets.all(22.0),
+          child: Column(children: [
+            const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Expanded(
@@ -44,13 +44,13 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
-                  height: 400,
-                  width: 400,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.deepPurple,
-                      boxShadow: const [
+           Container(
+            height: 400,
+            width: 400,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              color: Colors.deepPurple,
+                boxShadow: const [
                         BoxShadow(
                           color: Colors.deepPurple,
                           offset: Offset(
@@ -65,12 +65,10 @@ class _AboutUsState extends State<AboutUs> {
                             offset: Offset(0.0, 0.0),
                             blurRadius: 0.0,
                             spreadRadius: 0.0),
-                      ]),
-                  child: Image.asset(
-                    "assets/sir.jpg",
-                    fit: BoxFit.cover,
-                  ),
-                ),
+                      ]
+            ),
+            child: Image.asset("assets/sir.jpg",fit: BoxFit.cover,),
+           ),
                 SizedBox(
                   height: 20,
                 ),
@@ -99,7 +97,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
+                  Container(
                   height: 400,
                   width: 400,
                   decoration: BoxDecoration(
@@ -129,7 +127,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                const Row(
+                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Expanded(
@@ -154,7 +152,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
+            Container(
                   height: 400,
                   width: 400,
                   decoration: BoxDecoration(
@@ -184,7 +182,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                const Row(
+                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Expanded(
@@ -209,7 +207,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
+                 Container(
                   height: 400,
                   width: 400,
                   decoration: BoxDecoration(
@@ -239,7 +237,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                const Row(
+                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Expanded(
@@ -264,7 +262,7 @@ class _AboutUsState extends State<AboutUs> {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
+                 Container(
                   height: 400,
                   width: 400,
                   decoration: BoxDecoration(
@@ -291,9 +289,15 @@ class _AboutUsState extends State<AboutUs> {
                     fit: BoxFit.cover,
                   ),
                 ),
-              ],
-            ),
-          )),
+          ],),
+        )
+      ),
     );
   }
 }
+
+
+
+// About :
+
+ 

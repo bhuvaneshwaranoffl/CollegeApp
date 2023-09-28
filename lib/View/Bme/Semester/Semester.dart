@@ -74,13 +74,13 @@ class _SemesterBmeState extends State<SemesterBme> {
                         nextScreen(context, const SemFourBme());
                       },
                     ),
-                    CategoryCard(
-                      image: "assets/five.jpg",
-                      title: "SEM FIVE",
-                      press: (){
-                        nextScreen(context, const SemFiveBme());
-                      },
-                    ),
+                    // CategoryCard(
+                    //   image: "assets/five.jpg",
+                    //   title: "SEM FIVE",
+                    //   press: (){
+                    //     nextScreen(context, const SemFiveBme());
+                    //   },
+                    // ),
                     // CategoryCard(
                     //   image: "lib/images/AIDS.png",
                     //   title: "SEM SIX",

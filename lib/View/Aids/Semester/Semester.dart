@@ -73,13 +73,13 @@ class _SemesterAidsState extends State<SemesterAids> {
                         nextScreen(context, const SemFourAi());
                       },
                     ),
-                    CategoryCard(
-                      image: "assets/five.jpg",
-                      title: "SEM FIVE",
-                      press: (){
-                        nextScreen(context, const SemFiveAi());
-                      },
-                    ),
+                    // CategoryCard(
+                    //   image: "assets/five.jpg",
+                    //   title: "SEM FIVE",
+                    //   press: (){
+                    //     nextScreen(context, const SemFiveAi());
+                    //   },
+                    // ),
                     // CategoryCard(
                     //   image: "lib/images/AIDS.png",
                     //   title: "SEM SIX",
