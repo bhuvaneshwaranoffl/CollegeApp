@@ -38,6 +38,8 @@ class _SplashScreenState extends State<SplashScreen> {
                   end: Alignment.bottomLeft,
                   colors: [Color(0xFF5F0A87), Color(0xFFA4508B)]),
             ),
+          ),
+          Positioned(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -45,23 +47,21 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: Text(
                     "A C H I E V E",
                     style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 22,
                         color: Colors.white,
                         fontWeight: FontWeight.bold),
                   ),
                 ),
-                SizedBox(
-                  height: 200,
-                ),
                 Center(
                   child: Image.asset(
                     "assets/logos.png",
-                    height: 150,
-                    width: 150,
+                    height: 200,
+                    width: 200,
                   ),
                 ),
+                  
                 SizedBox(
-                  height: 150,
+                  height: 40,
                 ),
                 const Row(
                   children: [
@@ -71,14 +71,20 @@ class _SplashScreenState extends State<SplashScreen> {
                       endIndent: 10,
                       color: Colors.white,
                     )),
-                    Row(
-                      children: [
-                        Text(
-                          "F R O M",
+                  Row(
+                    children: [
+                      Text("F R O M -- ",style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.white
+                      ),),
+                      Text(
+                          "B E T T E R V I C E ",
                           style: TextStyle(fontSize: 18, color: Colors.white),
                         ),
-                      ],
-                    ),
+                        
+                    ],
+                  ),
+                
                     Expanded(
                         child: Divider(
                       indent: 10,
@@ -91,27 +97,19 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 20,
                 ),
                 Text(
-                  "B E T T E R V I C E ",
-                  style: TextStyle(fontSize: 18, color: Colors.white),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Text(
                   "&",
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                Text(
-                  "S - T E C H  S O L U T I O N S",
-                  style: TextStyle(fontSize: 18, color: Colors.white),
-                ),
+                  Text(
+                    "S - T E C H  S O L U T I O N S",
+                    style: TextStyle(fontSize: 18, color: Colors.white),
+                  ),
               ],
             ),
-          ),
-          
+          )
         ],
       ),
     );
