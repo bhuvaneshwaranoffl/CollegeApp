@@ -1,5 +1,6 @@
 import 'package:achieve/SplashScreen.dart';
 import 'package:flutter/material.dart';
+import 'Constant/Constant.dart';
 
 
 void main() {
@@ -19,7 +20,7 @@ class _MyAppState extends State<MyApp> {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme:ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 201, 0, 255)) 
+        colorScheme:ColorScheme.fromSeed(seedColor: primaryColor) 
       ),
       home: const SplashScreen(),
     );

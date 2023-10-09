@@ -4,8 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../Constant/Constant.dart';
+import '../MainScreen/PlacementTest.dart';
 import '../mainscreen/placementlearn.dart';
-import '../mainscreen/placetest.dart';
 
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({Key? key}) : super(key: key);
@@ -94,26 +94,26 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   ],
                 ),
               ),
-              GestureDetector(
-                onTap: () {
-                  setState(() {
-                    currentScreen = const AboutUs();
-                    currentTab = 4;
-                  });
-                },
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(CupertinoIcons.cursor_rays,
-                        color: currentTab == 4 ? primaryColor : Colors.grey),
-                    Text(
-                      "About us",
-                      style: TextStyle(
-                          color: currentTab == 4 ? primaryColor : Colors.grey),
-                    ),
-                  ],
-                ),
-              )
+              // GestureDetector(
+              //   onTap: () {
+              //     setState(() {
+              //       currentScreen = const AboutUs();
+              //       currentTab = 4;
+              //     });
+              //   },
+              //   child: Column(
+              //     mainAxisAlignment: MainAxisAlignment.center,
+              //     children: [
+              //       Icon(CupertinoIcons.cursor_rays,
+              //           color: currentTab == 4 ? primaryColor : Colors.grey),
+              //       Text(
+              //         "About us",
+              //         style: TextStyle(
+              //             color: currentTab == 4 ? primaryColor : Colors.grey),
+              //       ),
+              //     ],
+              //   ),
+              // )
             ],
           ),
         ),
